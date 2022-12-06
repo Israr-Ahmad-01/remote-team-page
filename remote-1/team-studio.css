@@ -1,0 +1,187 @@
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
+/* font-family: 'Noto Serif', serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.sans{
+    
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 600;
+font-size: 12px;
+color:rgb(82, 84, 100);
+}
+.noto{
+    font-family: 'Noto Serif', serif;
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-btn{
+background: rgb(255, 129, 45);
+border: none;
+border-radius: 20px;
+padding: 3px 30px;
+}
+.navbar{
+    max-width: 1080px;
+    background: transparent !important;
+}
+
+/* ///////////home header////////// */
+.bg-image{
+  
+    max-width: 1080px;
+    height: 300px;
+    position: relative;
+    margin-bottom: 300px;
+}
+.heading-text{
+    font-size: 8vh;
+}
+.para-text{
+    font-size: 3vh;
+}
+.div-content{
+    margin-top: 0%;
+    width: 40%;
+    height:300px;
+    border: none;
+    box-shadow: 2px 0.1px 20px 4px;
+}
+#team-banner{
+    max-width: 1080px;
+}
+/* ///////////media querry//// */
+@media (max-width: 990px){
+    .nav-btn{
+        visibility: hidden;
+    }
+}
+@media(max-width:500){
+    .banner-right-content{
+       padding-top: 5px;
+    
+    }
+    .banner-left-content{
+        display: none;
+    }
+       
+    }
+
+@media (max-width: 768px) {
+    .heading-text{
+        font-size: 5vh;
+    }
+    .para-text{
+        font-size: 2vh;
+    }
+    .div-content{
+        margin-top: 10%;
+        width: 40%;
+        height:200px;
+        border: none;
+        box-shadow: 2px 0.1px 20px 4px;
+    }
+    .bg-image{
+        max-width: 768px;
+      }  }
+  /* ///////////////////// */
+.divider h1{
+    font-weight: 800;
+}
+
+.div-content{
+   position: absolute;
+   z-index: 1;
+   top: 50%;
+   background-color: white;
+
+   
+   
+}
+
+/* ///////////staff////////// */
+
+.staff-img{
+  background-image: url('staff/1\ \(1\).jpg');
+  width: 300px;
+  height: 275px;
+
+}
+.staff-color-overlay{
+    
+    background-color: rgb(0, 0, 0);
+    opacity: 30%;
+    width:300px;
+    height:275px;
+    position: absolute;
+    
+   
+    
+}
+.staff-second-layer{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    margin-left: 15px;
+    visibility: hidden;
+
+}
+.staff-second-layer-show{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    margin-left: 15px;
+    visibility: none;
+
+}
+
+
+
+/* ///////////banner */
+
+.banner-content{
+    width: 100%;
+    height:250px;
+    background-color: black;
+
+}
+.banner-left-content{
+    width: 250px;
+}
+.banner-right-content{
+    width: 100%;
+}
+/* ////////////////////slider////////////// */
+.banner-content2{
+    width: 97%;
+    height:350px;
+    background-color: black;
+    overflow: hidden;
+
+}
+.banner-left-content2{
+    
+    width: 60%;
+}
+.banner-right-content2{
+    width: 40%;
+}
+
+
+
+/* /////////footer//// */
+#footer a{
+    color: rgb(121, 121, 121);
+}
+#footer a:hover{
+    text-decoration: none;
+   color: rgb(2, 0, 94);
+}
